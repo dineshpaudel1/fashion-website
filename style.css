@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dinesh{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+span{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: rgb(248, 26, 92);
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: red;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn0:hover{
+    background-color: rgb(3, 105, 37);
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(3, 105, 37);    
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.main{
+    background: url(image/background.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 200px;
+    margin-left: -190px;
+}
+.btn-1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(3, 105, 37);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-left: -190px;
+}
+.btn1:hover{
+    background-color: rgb(248, 26, 92);
+    transition: 0.5s;
+}
+h1{
+    font-weight: 700;
+}
+.btn-1:hover{
+    background-color: rgb(248, 26, 92);
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -2px -3px 29px -5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -3px 29px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -3px 29px -5px rgba(0,0,0,0.75);
+    transition: 0.4s;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+
+}
+.news p{
+    margin: 0;
+
+}
+.fa-brands{
+    font-size: 2..5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
