@@ -1,1 +1,1 @@
-### Weblink: [Live Website](https://rishavchanda.netlify.app)
+### Weblink: [Live Website](https://dineshpaudel1.github.io/fashion-website/)
